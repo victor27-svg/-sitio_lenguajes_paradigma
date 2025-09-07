@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Paradigmas · Lenguajes y Paradigmas</title>
+  <meta name="description" content="Sitio educativo sobre Lenguajes y Paradigmas de Programación.">
+  <link rel="icon" href="images/logo.svg">
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav">
+      <a class="brand" href="index.html">
+        <img src="images/logo.svg" alt="Logo">
+        <span>Lenguajes &amp; Paradigmas</span>
+      </a>
+      <button class="nav-toggle" aria-expanded="false" aria-controls="menu" aria-label="Abrir menú">
+        <span class="burger"></span>
+        <span class="sr-only">Menú</span>
+      </button>
+      <nav id="menu" class="menu">
+        <a href="index.html" class="">Inicio</a>
+        <a href="paradigmas.html" class="active">Paradigmas</a>
+        <a href="lenguajes.html" class="">Lenguajes</a>
+        <a href="recursos.html" class="">Recursos</a>
+      </nav>
+    </div>
+  </header>
+
+  
+<section class="page-hero">
+  <div class="container narrow">
+    <h1>Paradigmas de Programación</h1>
+    <p>Un paradigma es una forma de pensar y estructurar soluciones. Conocer varios te permite elegir el enfoque más adecuado.</p>
+  </div>
+</section>
+
+<section class="container grid-3">
+  <article class="info">
+    <h3><img src="images/icon-imperative.svg" alt="" class="inline-icon"> Imperativo</h3>
+    <p>Describe <em>cómo</em> lograr el objetivo mediante secuencias de instrucciones. Ej.: C, Python (estilo imperativo).</p>
+    <ul class="bullets">
+      <li>Control explícito del estado</li>
+      <li>Bucles y asignaciones</li>
+      <li>Procedimientos y subrutinas</li>
+    </ul>
+  </article>
+  <article class="info">
+    <h3><img src="images/icon-oo.svg" alt="" class="inline-icon"> Orientado a Objetos (OO)</h3>
+    <p>Modela el dominio con clases y objetos. Encapsulación, herencia y polimorfismo.</p>
+    <ul class="bullets">
+      <li>Abstracciones y modularidad</li>
+      <li>Patrones de diseño</li>
+      <li>Ej.: Java, C#, Python (OO)</li>
+    </ul>
+  </article>
+  <article class="info">
+    <h3><img src="images/icon-functional.svg" alt="" class="inline-icon"> Funcional</h3>
+    <p>Basado en funciones puras y <em>inmutabilidad</em>. Enfatiza la composición y evita efectos secundarios.</p>
+    <ul class="bullets">
+      <li>Map/Filter/Reduce</li>
+      <li>Funciones de orden superior</li>
+      <li>Ej.: Haskell, Elixir, Scala</li>
+    </ul>
+  </article>
+  <article class="info">
+    <h3><img src="images/icon-declarative.svg" alt="" class="inline-icon"> Declarativo</h3>
+    <p>Indica <em>qué</em> se desea, no cómo lograrlo. Ej.: SQL, Prolog, HTML.</p>
+    <ul class="bullets">
+      <li>Consultas y reglas</li>
+      <li>Menos control de flujo explícito</li>
+      <li>Mayor legibilidad</li>
+    </ul>
+  </article>
+  <article class="info">
+    <h3><img src="images/icon-reactive.svg" alt="" class="inline-icon"> Reactivo / Event-driven</h3>
+    <p>Reacciona a flujos de eventos y cambios. Ideal para interfaces y sistemas en tiempo real.</p>
+    <ul class="bullets">
+      <li>Observables y suscripción</li>
+      <li>Backpressure</li>
+      <li>Ej.: RxJS, Akka</li>
+    </ul>
+  </article>
+  <article class="info">
+    <h3><img src="images/icon-concurrent.svg" alt="" class="inline-icon"> Concurrente / Paralelo</h3>
+    <p>Descompone tareas para ejecutarlas simultáneamente (hilos, corrutinas, actores).</p>
+    <ul class="bullets">
+      <li>Modelos de concurrencia</li>
+      <li>Evitar condiciones de carrera</li>
+      <li>Ej.: Go, Erlang</li>
+    </ul>
+  </article>
+</section>
+
+<section class="container callout">
+  <p><strong>Tip:</strong> Mezclar paradigmas es común y útil. Python, por ejemplo, soporta estilos imperativo, OO y funcional.</p>
+</section>
+
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <strong>Lenguajes &amp; Paradigmas</strong><br>
+        <small>Sitio educativo</small>
+      </div>
+      <div class="footer-links">
+        <a href="index.html">Inicio</a>
+        <a href="paradigmas.html">Paradigmas</a>
+        <a href="lenguajes.html">Lenguajes</a>
+        <a href="recursos.html">Recursos</a>
+      </div>
+      <div class="copy">
+        <small>&copy; 2025</small>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>

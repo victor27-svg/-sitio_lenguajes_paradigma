@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Recursos · Lenguajes y Paradigmas</title>
+  <meta name="description" content="Sitio educativo sobre Lenguajes y Paradigmas de Programación.">
+  <link rel="icon" href="images/logo.svg">
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav">
+      <a class="brand" href="index.html">
+        <img src="images/logo.svg" alt="Logo">
+        <span>Lenguajes &amp; Paradigmas</span>
+      </a>
+      <button class="nav-toggle" aria-expanded="false" aria-controls="menu" aria-label="Abrir menú">
+        <span class="burger"></span>
+        <span class="sr-only">Menú</span>
+      </button>
+      <nav id="menu" class="menu">
+        <a href="index.html" class="">Inicio</a>
+        <a href="paradigmas.html" class="">Paradigmas</a>
+        <a href="lenguajes.html" class="">Lenguajes</a>
+        <a href="recursos.html" class="active">Recursos</a>
+      </nav>
+    </div>
+  </header>
+
+  
+<section class="page-hero">
+  <div class="container narrow">
+    <h1>Recursos y Guías</h1>
+    <p>Material complementario para profundizar: glosario, buenas prácticas, retos y enlaces.</p>
+  </div>
+</section>
+
+<section class="container two-col">
+  <div>
+    <h3>Glosario rápido</h3>
+    <dl class="glossary">
+      <dt>Inmutabilidad</dt>
+      <dd>Propiedad de no cambiar el estado una vez creado; clave en programación funcional.</dd>
+      <dt>Abstracción</dt>
+      <dd>Proceso de ocultar detalles internos y exponer una interfaz más simple.</dd>
+      <dt>Acoplamiento</dt>
+      <dd>Grado de dependencia entre módulos. Buscamos <em>bajo acoplamiento</em>.</dd>
+      <dt>Cohesión</dt>
+      <dd>Grado de relación lógica dentro de un módulo. Buscamos <em>alta cohesión</em>.</dd>
+      <dt>Concurrencia</dt>
+      <dd>Ejecución de múltiples tareas en períodos superpuestos de tiempo.</dd>
+    </dl>
+
+    <h3>Buenas prácticas</h3>
+    <ul class="bullets">
+      <li>Aplica principios SOLID en OO.</li>
+      <li>Prefiere funciones puras y pruebas unitarias.</li>
+      <li>Diseña APIs con contratos claros (REST/GraphQL).</li>
+      <li>Automatiza CI/CD y añade linting/formateo.</li>
+      <li>Protege datos y secretos (12-factor, .env).</li>
+    </ul>
+  </div>
+  <aside>
+    <h3>Retos sugeridos</h3>
+    <ol class="challenges">
+      <li>Implementa <strong>map, filter, reduce</strong> desde cero.</li>
+      <li>Crea una <strong>API REST</strong> con autenticación y pruebas.</li>
+      <li>Resuelve un problema con <strong>enfoques distintos</strong> (imperativo vs funcional).</li>
+      <li>Programa un <strong>productor/consumidor</strong> concurrente.</li>
+    </ol>
+
+    <h3>Enlaces útiles</h3>
+    <ul class="links">
+      <li><a href="https://roadmap.sh" target="_blank" rel="noopener">Roadmap.sh</a></li>
+      <li><a href="https://martinfowler.com" target="_blank" rel="noopener">martinfowler.com</a></li>
+      <li><a href="https://refactoring.guru/es" target="_blank" rel="noopener">Refactoring.Guru (ES)</a></li>
+      <li><a href="https://owasp.org/www-project-top-ten/" target="_blank" rel="noopener">OWASP Top 10</a></li>
+    </ul>
+  </aside>
+</section>
+
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <strong>Lenguajes &amp; Paradigmas</strong><br>
+        <small>Sitio educativo</small>
+      </div>
+      <div class="footer-links">
+        <a href="index.html">Inicio</a>
+        <a href="paradigmas.html">Paradigmas</a>
+        <a href="lenguajes.html">Lenguajes</a>
+        <a href="recursos.html">Recursos</a>
+      </div>
+      <div class="copy">
+        <small>&copy; 2025</small>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
